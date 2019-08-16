@@ -1,0 +1,527 @@
+/*#############################################################
+####################### Home Page #############################
+###############################################################*/
+
+.col-1.dotedlineimg{
+    float: left;
+    display: inline-block;
+    background-image: url(/images2/1x/1x/WHITE%20thick%20home%20line.png);
+    background-repeat: repeat;
+    width: 5%;
+    margin-right: 3.333333%;
+    margin-left: 85px;
+    margin-top: -123px;
+}
+.col-1.dotedlineimg img{
+	display: none;
+}
+@media(min-width: 1440px) and (min-height: 900px) {
+	body.home{
+		overflow-y: hidden;
+	}
+}
+@media(min-width: 992px) and (max-width: 1440px){
+	.dashlinehome{
+		height: 100%;
+		margin-top: -120px;
+		width: 100%;
+	}
+	body.home{
+		/*overflow-y: hidden;*/
+	}
+	/*.playdesk{
+		margin-top: 20px;
+	}*/
+	aside a{
+		padding: 12px 12px;
+	}
+}
+@media(min-width: 992px){
+	.home .footerline{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.home .littlefooter{
+		position: absolute;
+    	bottom: 45px; 
+	}
+	.displaydesktop .pushtheplay{
+		margin-left: 35px;
+	}
+}
+
+@media(max-width: 767px){
+	.displaymobile{
+		width: 100%;
+	}
+	.contactbits2 {
+	    color: white;
+	    margin-left: 33px;
+	    font-size: 16px;
+	}
+}
+
+@media(max-width: 768px){
+	.contactfooterlittlewhite2{
+		margin-left: 0;
+	}
+	.playdesk{
+		display: block;
+	}
+	.topdownn{
+		padding-top: 0;
+	}
+	h1.playdesk.topdownn{
+		margin-left: 0;
+	}
+	h1.playdesk.dropp{
+		margin-left: 0;
+	}
+	.displaydesktop .pushtheplay{
+		margin-left: 0px;
+	}
+
+}
+
+@media(max-width: 1025px){
+	.contactfooterlittlewhite2{
+		margin-left: 20px;
+	}
+}
+
+@media(min-width: 1680px){
+	.col-1.dotedlineimg{
+		margin-left: 0;
+	}
+	.plusnav{
+		margin-left: 0;
+	}
+	.row.pushplus nav{
+		margin-left: -92px;
+	}
+	nav{
+		margin-left: -92px;	
+	}
+}
+/*#############################################################
+####################### Home Page #############################
+###############################################################*/
+
+
+/*#############################################################
+####################### Contact Page ##########################
+###############################################################*/
+
+@media(min-width: 992px){
+	.rectangle2{
+		/*margin-top: 34px;*/
+		margin-top: 16px;
+		height: 170px;
+	}
+	.rectangle3{
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+	.pushtheboogie{
+		margin-top: 110px;
+	}
+	.contactfooterlittle6{
+		margin-left: 0px;
+		display: inline-block;
+		position: absolute;
+		right: 60px;
+	}
+	.emailside{
+		margin-top: 20px;
+	}
+	.littlefooter{
+		margin-bottom: 0;
+	}
+	/*.footerline{
+		margin-bottom: 40px;
+	}*/
+	.emaildance{
+		margin-top: 25px;
+	}
+	.rectangle3{
+		height: 160px;
+	}
+	.subtextboxx{
+		margin-left: 98px;
+	}
+	.subtextbox3{
+		margin-left: 118px;
+	}
+}
+
+
+/*#############################################################
+####################### Contact Page ##########################
+###############################################################*/
+
+
+/*#############################################################
+######################### About Page ##########################
+###############################################################*/
+@media(min-width: 768px){
+	.moblie-box{
+		display: none;
+	}
+	.madness{
+		margin-left: 100px;
+	}
+	.desktop-box .insta {
+	    width: 100%;
+	    height: auto;
+	}
+}
+@media(min-width: 768px) and (max-width: 1023px){
+	.littlefooter{
+		margin-left: 72px;
+	}
+	.desktop-box .col-md-2{
+		display: none;
+	}
+	/*.subtextboxx{
+		width: 100%;
+	}*/
+	.desktop-box{
+		margin-left: 10%;
+	}
+	/*.subtextbox3{
+		width: 100%;
+	}*/
+}
+
+@media(min-width: 992px){
+
+	/*.contactfooterlittle3{
+		margin-left: 0px;
+		position: absolute;
+    	right: 60px;
+	}*/
+	.desktop-box .insta{
+		width: 100%;
+		height: auto;
+	}
+	.moblie-box{
+		display: none;
+	}
+	.desktop-box .col-md-3{
+		padding-right: 0px;
+		padding-left: 5px;
+	}
+	.madness {
+		margin-left: 232px;
+	}
+	.subtextboxx{
+		margin-left: 110px;
+	}
+	.subtextbox3{
+		margin-left: 110px;
+	}
+}
+
+@media(max-width: 767px){
+	.desktop-box{
+		display: none;
+	}
+	.subtextbox3{
+		margin-left: 0px;
+	}
+	.subtextboxx{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.madness{
+		margin-left: 0px;
+	}
+	.contactfooterlittle2{
+		margin-left: 0px;
+		position: absolute;
+		right: 23px;
+	}
+}
+
+@media(min-width: 992px){
+	.madness{
+		margin-left: 205px !important;
+	}
+}
+
+@media(max-width: 400px){
+	.insta {
+	    height: auto;
+	    width: 87px;
+	}
+}
+
+@media(max-width: 1024px){
+	.contactfooterlittle3{
+		margin-left: 0px;
+		position: absolute;
+    	right: 60px;
+	}
+	.contactfooterlittle17 {
+	    margin-left: 0px;
+		position: absolute;
+    	right: 60px;
+	}
+}
+/*#############################################################
+######################### About Page ##########################
+###############################################################*/
+
+
+/*#############################################################
+######################### Work Page ###########################
+###############################################################*/
+
+@media(min-width: 992px){
+	.rectangle{
+		width: 100%;
+		margin-left: 0;
+	}
+	.subtextbox{
+		margin-left: 0;
+	}
+	.anusize{
+		margin-left: 0px;
+	}
+	.pushthesurprise{
+		/*margin-left: 145px;*/
+		margin-left: 97px;
+	}
+	.gander{
+		margin-left: 0px;
+	}
+	body.about-wrap .littlefooter{
+		margin-left: 198px;
+	}
+	.heresdownn{
+		margin-left: 0px;
+	}
+	.heresdown{
+		margin-left: 0px;
+	}
+}
+
+@media(max-width: 767px){
+	.rectangle{
+		margin-left: 0;
+		width: 100%;
+	}
+	.subtextbox{
+		margin-left: 0px;
+	}
+	.heresdown{
+		margin-left: 0px;
+	}
+	.heresdownn{
+		margin-left: 0px;
+	}
+	.littlefooter{
+		margin-left: 0px;
+	}
+	.littlefooter > div:first-child > a p{
+		margin-left: 0px;
+	}
+}
+
+
+/*#############################################################
+######################### Work Page ###########################
+###############################################################*/
+
+/*#############################################################
+######################### Motyf Page ###########################
+###############################################################*/
+@media(min-width: 992px){
+	.workactive{
+		margin-left: 86px;
+	}
+	.designing{
+		margin-left: 200px;
+	}
+	.mobilemotfy{
+		margin-left: 38px;
+	}
+	div.vertical-linemo{
+		height: 160px;
+	}
+	.resizevid {
+	    height: auto;
+	    width: 650px;
+	    margin-left: 250px;
+	}
+	.pushsidemotyf {
+	    margin-top: -100px;
+	    margin-left: 250px;
+	    margin-bottom: 65px;
+	}
+}
+/*@media (min-width: 576px) {
+	@media (min-width: 992px) {
+		@media (min-width: 992px) {
+			.pushwords {
+			    margin-left: 858px;
+			}
+		}
+	}
+}*/
+
+@media(min-width: 768px) and (max-width: 1025px){
+	.pushwords {
+	    /*margin-left: 858px;*/
+	    /*margin-left: 663px;*/
+	    margin-left: 313px;
+	}
+	.pushbit{
+	  margin-left:0 !important;
+	}
+	.motyfimgbig{
+	   margin: 0 auto;
+	   width: 720px;
+	    flex: 720px;
+	    max-width: 720px;
+	}
+	.designing{
+	  	width:720px;
+		margin:0 auto;
+		padding-bottom: 30px;
+	}
+	.pushwords{
+		max-width:720px;
+		margin: 0 auto;
+		flex: 720px;
+	}
+	.pushsidemotyf {
+	    width: 720px;
+	    margin: 0 auto;
+	    flex: 720px;
+	    max-width: 720px;
+	}
+	div.vertical-line2{
+		margin-top: 0;
+		margin-right: 10px;
+	}
+	.motyfvid{
+		/*width: 100%;
+		height: auto;*/
+		width: 100%;
+	    height: auto;
+	    margin: 0;
+	}
+	.movevideo3{
+		width: 720px;
+		margin: 0 auto;
+		max-width: 720px;
+		margin-top: 35px;
+	}
+	.margleft .offset-md-2{
+		max-width: 720px;
+	    flex: 720px;
+	    width: 720px;
+	    margin: 0 auto;
+	}
+	.picsizebig {
+	    width: 100%;
+	    height: auto;
+	}
+	.motyfimg {
+	    width: 315px;
+	}
+}
+@media(min-width: 1025px){
+	.pushwords {
+	    margin-left: 858px;
+	}	
+}
+
+/*@media (min-width: 576px){
+	@media (min-width: 992px){
+		@media (min-width: 992px){
+			.contactfooterlittle17 {
+			    display: block;
+			    color: black;
+			    margin-left: 45px;
+			    font-size: 16px;
+			}
+		}
+	}
+}*/
+
+@media(max-width: 767px){
+	.motyfvid {
+	    width: 100%;
+	    height: auto;
+	    margin-left: 0;
+	    margin-top: 15px;
+	}
+	.motyfimg {
+	    width: 100%;
+	    height: auto;
+	    margin-left: 9px;
+	    margin-top: 15px;
+	}
+	.row.margleft{
+		width: 100%;
+	}
+}
+@media(max-width: 576px){
+	.pushbit {
+	    margin-left: 148px !important;
+	    width: 140px !important;
+	    text-align: right;
+	}
+}
+
+/*#############################################################
+######################### Motyf Page ###########################
+###############################################################*/
+
+/*#############################################################
+######################### hislife Page ########################
+###############################################################*/
+
+@media(max-width: 767px){
+	.hislifemov{
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	.hislifegif{
+		width: 100%;
+		margin: 0;
+	}
+	.pushbit{
+		/*margin-left: 255px;
+		width: 140px;*/
+		margin-left: 182px;
+	    /*width: 140px;*/
+	    width: 185px;
+	    text-align: right;
+	}
+}
+@media(min-width: 992px){
+	.resizevid2{
+		width: 100%;
+		height: auto;
+	}
+	.hislifemov{
+		margin-left: 0;
+	}
+	/*.movevideo1{
+		margin-left: 0;
+		text-align: center;
+	}*/
+	.pushbit{
+		margin-left: 1200px;
+		text-align: right;
+	}
+}
+
+/*#############################################################
+######################### hislife Page ########################
+###############################################################*/
+

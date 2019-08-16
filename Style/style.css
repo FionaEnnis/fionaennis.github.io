@@ -1,4 +1,6 @@
-
+.container-fluid {
+    max-width: 1440px;
+}
 .ondisplay {
   color: #ffcd03; !important;
   text-decoration: none;
@@ -450,7 +452,7 @@ div.vertical-linehis{
       width: 0px; 
       height: 30px;
       float: left;
-    margin-left: -65px;
+    margin-left: -20px;
     margin-top: 0px;
     border: .8px;
     border-style: dashed;
@@ -600,10 +602,13 @@ div.vertical-linehis{
 }
 
 
-
+.rowww
+{
+    display: none;
+}
 
 .hislifemov
-{
+{ 
     width: autopx;
     height: 235px;
    margin-left: -20px;
@@ -692,7 +697,16 @@ div.vertical-linemo{
     border-style: dashed;
   
     }
-
+div.vertical-lineme{
+      width: 0px;
+      height: 238px; /* Override in-line if you want specific height. */
+      float: left;
+    margin-left: 18px;
+    margin-top: 0px;
+    border: .8px;
+    border-style: dashed;
+  
+    }
 
 
 
@@ -711,6 +725,8 @@ div.vertical-line2{
         You can instead use position:absolute or display:inline-block
         if this fits better with your design */
     }
+
+
 div.vertical-line3{
     width: 0px; 
     height: 90px;
@@ -1453,6 +1469,14 @@ A:visited { COLOR: black; TEXT-DECORATION: none !important; }
 
 
 
+@media(min-width: 992px)
+{
+.rowww
+{
+    display: none;
+    }}
+
+
 
 
 @media(min-width: 992px)
@@ -1522,7 +1546,19 @@ div.vertical-line2{
     width: 0px; 
     height: 70px;
     float: left;
-    margin-right: 18px;
+    margin-right: 0px;
+    border: .8px;
+    border-style: dashed;
+    margin-top: 0px;
+    
+
+    }}
+
+div.vertical-linemes{
+    width: 0px; 
+    height: 310px;
+    float: left;
+    margin-right: 0px;
     border: .8px;
     border-style: dashed;
     margin-top: 0px;
@@ -1629,7 +1665,7 @@ margin-right: 300px;
     
     .pushbit
     {
-      margin-left: 1291px; 
+      margin-left: 0px; 
     font-weight: 700;
         width: 200px;
     }
@@ -1782,8 +1818,8 @@ margin-right: 300px;
     @media(min-width: 992px){
 .pushsidemotyf2
 {
-    margin-top: 0px;
-    margin-left: 265px;
+    margin-top: 20px;
+    margin-left: 225px;
     margin-bottom: 0px;
     
     }
@@ -1991,7 +2027,7 @@ margin-right: 300px;
     @media(min-width: 992px){ 
  div.vertical-linehis{
       width: 0px; 
-      height: 155px;
+      height: 182px;
       float: left;
     margin-right: 18px;
     margin-top: 6px;
@@ -2003,7 +2039,7 @@ margin-right: 300px;
     @media(min-width: 992px){ 
  div.vertical-linehis3{
       width: 0px; 
-      height: 90px;
+      height: 110px;
       float: left;
     
     margin-right: 18px;
@@ -2116,8 +2152,8 @@ margin-right: 300px;
 {
     width: 440px;
     height: auto;
-    margin-left: 405px;
-    margin-top: 170px;
+    margin-left: 245px;
+    margin-top: 130px;
         }}
     
     
@@ -2132,11 +2168,11 @@ margin-right: 300px;
     
     
 @media(min-width:992px){
-.anusize
+.messagessize
 {
     width: 600px;
     height: auto;
-    margin-left: 300px;
+    margin-left: 160px;
     margin-top: 20px;
 } 
     }
@@ -2258,7 +2294,7 @@ margin-right: 300px;
 .contactfooterlittle3{
     display: block;
     color: black;
-    margin-left: 905px;
+    margin-left: 805px;
     font-size: 16px;
      }}
 
@@ -2277,7 +2313,7 @@ margin-right: 300px;
 .contactfooterlittle6{
     display: block;
     color: #e71b24;
-    margin-left: 905px;
+    margin-left: 505px;
     font-size: 16px;
      }}
      
@@ -2299,6 +2335,7 @@ margin-right: 300px;
     
         }}
     
+
     @media(min-width: 992px){  
         .pushwords{
         margin-left: 885px;    
@@ -2306,6 +2343,7 @@ margin-right: 300px;
         }
       
     }
+
     
     
     
