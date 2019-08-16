@@ -103,7 +103,8 @@ var text = ["a red card",
     "a wild card",
            "on words"]
 var pos = {x: 0, y:0};
-$(document).mousemove(function(event) {
+var randomItem = text[Math.floor(Math.random() * text.length)];
+/*$(document).mousemove(function(event) {
   var randomItem = text[Math.floor(Math.random() * text.length)];
   var div = $("#message");
   if (event.pageX > pos.x+30 || event.pageY > pos.y+30 || event.pageY < pos.y -30 || event.pageX < pos.x-30) {
@@ -118,7 +119,26 @@ $(document).mousemove(function(event) {
       }, 1);
     });
   }
-});
+});*/
+$("#button6").click(function(){
+var myArray = [
+  "a red card",
+  "a part",
+  "a key role",
+"with fire",
+    "and learn",
+    "with the",
+    "something",
+    "fair",
+    "with ideas",
+    "with type",
+    "a wild card",
+    "on words"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+       $('#message').html(randomItem);
+   });
 
 
 
@@ -226,7 +246,15 @@ $(document).ready(function(){
         }
     });
     
-    
+    var _wh = $(window).height();
+    var _bh = $('body').height();
+    if($('.dotedlineimg').length > 0){
+      if (_bh > _wh) {
+        $('.dotedlineimg').height(_bh);
+      }else{
+        $('.dotedlineimg').height(_wh);
+      }
+    }
 });     
 
 
