@@ -86,9 +86,7 @@ var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 //});
 
 
-
-
-
+//TEST the home screen move on hover mouse, look below jimit
 
 var text = ["a red card",
   "a part",
@@ -103,8 +101,7 @@ var text = ["a red card",
     "a wild card",
            "on words"]
 var pos = {x: 0, y:0};
-var randomItem = text[Math.floor(Math.random() * text.length)];
-/*$(document).mousemove(function(event) {
+$(document).mousemove(function(event) {
   var randomItem = text[Math.floor(Math.random() * text.length)];
   var div = $("#message");
   if (event.pageX > pos.x+30 || event.pageY > pos.y+30 || event.pageY < pos.y -30 || event.pageX < pos.x-30) {
@@ -119,26 +116,83 @@ var randomItem = text[Math.floor(Math.random() * text.length)];
       }, 1);
     });
   }
-});*/
-$("#button6").click(function(){
-var myArray = [
-  "a red card",
-  "a part",
-  "a key role",
-"with fire",
-    "and learn",
-    "with the",
-    "something",
-    "fair",
-    "with ideas",
-    "with type",
-    "a wild card",
-    "on words"
-];
+});
 
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-       $('#message').html(randomItem);
-   });
+
+//TEST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if ($(window).width() < 1440) {
+   
+  var text = ["a red card",
+    "a part",
+    "a key role",
+  "with fire",
+      "and learn",
+      "with the",
+      "something",
+      "fair",
+      "with ideas",
+      "with type",
+      "a wild card",
+             "on words"]
+  var pos = {x: 0, y:0};
+  var randomItem = text[Math.floor(Math.random() * text.length)];
+  $(document).mousemove(function(event) {
+    var randomItem = text[Math.floor(Math.random() * text.length)];
+    var div = $("#message");
+    if (event.pageX > pos.x+30 || event.pageY > pos.y+30 || event.pageY < pos.y -30 || event.pageX < pos.x-30) {
+      pos.x = event.pageX;
+      pos.y = event.pageY;
+      div.stop().animate({
+        "opacity": "1"
+      }, 1, function() {
+        $(this).text(randomItem);
+        $(this).stop().animate({
+          "opacity": "1"
+        }, 1);
+      });
+    }
+  });
+}
+
+if ($(window).width() > 1439) {
+  
+  $("#button6").click(function(){
+  var myArray = [
+    "a red card",
+    "a part",
+    "a key role",
+  "with fire",
+      "and learn",
+      "with the",
+      "something",
+      "fair",
+      "with ideas",
+      "with type",
+      "a wild card",
+      "on words"
+  ];
+
+  var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+         $('#message').html(randomItem);
+     });
+}
 
 
 
@@ -256,7 +310,6 @@ $(document).ready(function(){
       }
     }
 });     
-
 
 
 
